@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:background="@color/purple">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:padding="20dp"
+            android:animateLayoutChanges="true"
+            android:orientation="vertical">
+
+
+                <EditText
+                    android:id="@+id/email_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/purpleTertiary"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/purpleTertiary"
+                    android:hint="Email"
+                    android:inputType="textEmailAddress"/>
+
+                <EditText
+                    android:id="@+id/password_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/purpleTertiary"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/purpleTertiary"
+                    android:hint="Password"
+                    android:inputType="textPassword"/>
+
+
+                <EditText
+                    android:id="@+id/verify_password_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/purpleTertiary"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/purpleTertiary"
+                    android:hint="Confirm Password"
+                    android:inputType="textPassword"/>
+
+
+                <EditText
+                    android:id="@+id/full_name_edit"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:paddingStart="10dp"
+                    android:paddingEnd="10dp"
+                    android:textColorHint="@color/purpleTertiary"
+                    android:textColor="@color/white"
+                    android:backgroundTint="@color/purpleTertiary"
+                    android:hint="Name"
+                    android:inputType="text"/>
+
+            <ProgressBar
+                android:id="@+id/progress_bar"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:indeterminateTint="@color/white"
+                android:layout_marginTop="20dp"
+                android:visibility="gone"/>
+
+            <Button
+                android:id="@+id/signup_button"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/gradient_purple_curve"
+                android:textColor="@color/white"
+                android:layout_marginTop="20dp"
+                android:text="Sign Up"/>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
