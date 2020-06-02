@@ -22,6 +22,7 @@ FliprTrello is a Trello like application used for work distribution and manageme
 ### Prerequisites
 
 * Create a new project on  firebase console. Click here https://console.firebase.google.com
+* Add authentication and realtime database to the firebase project
 * Add the android app to the firebase project. Click her for more info https://firebase.google.com/docs/android/setup
 * Add google-services.json file inside the app directory of the project
 
